@@ -1,14 +1,14 @@
 dispersion = "dirac"   #  Quadratic, Dirac or Semi-Dirac
 temp = 1.0                 #  temperature
-vx = 1.0                   #  velocity along x
-vy = 2.0                   #  velocity along y
-mx = 1.0                   #  effective mass along x
-my = 1.0                   #  effective mass along y
-halfgap = 2.0              #  half-gap, Δ
+vx = 0.0                 #  velocity along x
+vy = 1.0                   #  velocity along y
+mx = 1e-1                   #  effective mass along x
+my = 1e5                   #  effective mass along y
+halfgap = 0.0              #  half-gap, Δ
 #
-dW = 0.5                 #  Freq. step, dΩ 
-Wmin = 2                   #  Min. freq., Ωmin
-Wmax = 15                  #  Max. freq., Ωmax
+dW = 0.01                 #  Freq. step, dΩ 
+Wmin = 0.0                   #  Min. freq., Ωmin
+Wmax = 1                  #  Max. freq., Ωmax
 #
 eta = 0.01     		   #  smearing, η
 rtol = 1e-2               #  relative tolerance for numerical integration
