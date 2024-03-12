@@ -1,16 +1,15 @@
-dispersion = "dirac"   #  Quadratic, Dirac or Semi-Dirac
-temp = 1.0                 #  temperature
-vx = 0.0                 #  velocity along x
-vy = 1.0                   #  velocity along y
-mx = 1e-1                   #  effective mass along x
-my = 1e5                   #  effective mass along y
-halfgap = 0.0              #  half-gap, Δ
+vx = 1                    #  velocity along x
+vy = 2                    #  velocity along y
+mx = 1e5                 #  effective mass along x (if mx>1e4: mx=Inf)
+my = 1e5                  #  effective mass along y
+V = 0.00                  #  sublattice (pseudospin) splitting
+halfgap = 0.0             #  half-gap, Δ
 #
-dW = 0.01                 #  Freq. step, dΩ 
-Wmin = 0.0                   #  Min. freq., Ωmin
+dW = 0.02                 #  Freq. step, dΩ 
+Wmin = 0.01               #  Min. freq., Ωmin
 Wmax = 1                  #  Max. freq., Ωmax
 #
-eta = 0.01     		   #  smearing, η
+eta = 0.01     		      #  smearing, η
 rtol = 1e-2               #  relative tolerance for numerical integration
-atol = 0                   #  absolute tolerance for numerical integration
+atol = 0                  #  absolute tolerance for numerical integration
 
