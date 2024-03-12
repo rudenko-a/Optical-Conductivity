@@ -1,6 +1,6 @@
-vx = 1                    #  velocity along x
+vx = 0                    #  velocity along x
 vy = 2                    #  velocity along y
-mx = 1e5                 #  effective mass along x (if mx>1e4: mx=Inf)
+mx = 0.05                 #  effective mass along x (if mx>1e4: mx=Inf)
 my = 1e5                  #  effective mass along y
 V = 0.00                  #  sublattice (pseudospin) splitting
 halfgap = 0.0             #  half-gap, Δ
