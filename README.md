@@ -26,7 +26,7 @@ where $ii = xx, yy$, and $v_i({\bf k}) = \hbar^{-1}\partial H({\bf k})/ \partial
 \text{   and   }
 \sigma_{yy}(\Omega) = \frac{v_y}{v_x}\frac{\pi}{8}\frac{e^2}{h},
 ```
-which is reproduced in the figure below.
+which is reproduced in the figure below ($\eta=0.01$ in all examples below).
 
  ![figure1](dirac.png)
 
